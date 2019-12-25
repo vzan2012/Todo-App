@@ -1,0 +1,11 @@
+.form-add-todo {
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+
+  input[type="text"] {
+    line-height: 21px;
+    padding: 2.5px 10px;
+    width: 30%;
+  }
+}

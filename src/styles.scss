@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+$grey-color: #333;
+$bg-color: #555;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: $grey-color;
+  // padding: 20px;
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: $grey-color;
+    text-decoration: none;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    background :$bg-color;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: #666;
+    }
+  }
+
+}

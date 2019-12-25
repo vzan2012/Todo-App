@@ -1,0 +1,42 @@
+.todo-item {
+  background: #f4f4f4;
+  border-bottom: 1px dotted #ccc;
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+  input[type="checkbox"],
+  .todo-title {
+    float: left;
+    margin-right: 5px;
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .todo-title {
+    margin-top: 2.5px;
+    display: inline-block;
+  }
+
+  button {
+    &.del {
+      background: #f00;
+      border: none;
+      color: #fff;
+      outline: none;
+      padding: 5px 9px;
+      cursor: pointer;
+      float: right;
+    }
+  }
+}
+
+.is-complete {
+  .todo-title {
+    text-decoration: line-through;
+  }
+}
